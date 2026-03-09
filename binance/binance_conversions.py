@@ -1,7 +1,7 @@
-
+from binance_client import client
 
 ## converts cryptocurrencies to GBP
-def get_portfolio_values(client, all_holdings):
+def get_portfolio_values(all_holdings):
    
     results = []
 
